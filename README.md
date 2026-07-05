@@ -1,16 +1,25 @@
-# React + Vite
+# Information about this app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Fetch ✅
+    - Loading indicators on api call and approproiate error message if api req fails.
 
-Currently, two official plugins are available:
+- Manage Todo status ✅
+    - Completed or Incomplete, immediate UI update(no api call for this).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Theme Management: Light and Dark themes. ✅
 
-## React Compiler
+- Favorites ✅
+    - Mark unmark fav, and show at nav.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search ✅
+    - Clint side by header, memorization of recent search.
 
-## Expanding the ESLint configuration
+- API logger ✅
+    - Centralized api logger, Log -> [URL, HTTP method, Req start time, Response status, Error if any]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Reusable API Hook ✅
+    - Encapsulate API calling logic in a CUSTOM HOOK(reusable hook).
+
+- Performance Optimization ✅
+    - React memorization technique.
+
