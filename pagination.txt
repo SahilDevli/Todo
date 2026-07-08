@@ -1,0 +1,3 @@
+Redirects are not supported over HTTP/2
+
+The HTTP/2 adapter does not currently follow redirects. If a request issued with httpVersion: 2 receives a 3xx response, the redirect is not followed automatically. Handle these responses manually or stay on HTTP/1.x for endpoints that rely on redirects.
