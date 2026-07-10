@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
-    "axios": "^1.18.1",
+    "axios": "^0.21.0",
+    "lodash": "^4.17.20",
+    "minimist": "^0.0.8",
+    "node-fetch": "^2.6.6",
+    "qs": "^6.9.3",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-icons": "^5.7.0",
